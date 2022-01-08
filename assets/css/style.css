@@ -1,0 +1,97 @@
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%3f3f3f' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%3f3f3f' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+.pink {
+  background-color: #faccad;
+}
+
+.yellow {
+  background-color: #fff799;
+}
+.nav-height {
+  height: 30px;
+}
+
+.icon-nav-margin {
+  margin-right: 30px;
+}
+
+.header-dec {
+  text-decoration: none;
+  color: black;
+}
+
+.label-utama {
+  height: 80px;
+  margin: 10px 0px 10px 30px;
+}
+.login-color {
+  background-color: #f7cf45 !important;
+}
+.daftar-color {
+  background-color: #f7a145 !important;
+}
+
+.bg-tanggal {
+  background: rgb(193, 232, 251);
+  background: linear-gradient(
+    180deg,
+    rgba(193, 232, 251, 1) 5%,
+    rgba(132, 181, 255, 1) 96%
+  );
+}
+
+.footer {
+  background-color: #fff799;
+  height: 150px;
+}
+
+.mt-20 {
+  margin-top: 90px;
+}
+
+.menu ul li {
+  margin: 0px 60px 0px 0px;
+  display: inline;
+  text-decoration: none;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.menu ul {
+  margin: 8px 0px 8px 0px;
+}
+
+.text-navbar {
+  font-weight: bold;
+}
+
+.menu ul li a:hover,
+.menu ul li a.hoverover {
+  cursor: pointer;
+  color: #ffffff;
+}
+.header-dec:hover,
+.header-dec.hoverover {
+  cursor: pointer;
+  color: #c0c0c0;
+}
+@media (max-width: 500px) {
+  .icon-nav-margin {
+    margin-right: 10px;
+  }
+
+  /*navbar
+  .nav-height{
+      height:50px;
+  
+  }*/
+}
